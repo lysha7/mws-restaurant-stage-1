@@ -1,3 +1,5 @@
+// This code was created with help from an excellent Google tutorial found at https://developers.google.com/web/ilt/pwa/lab-caching-files-with-service-worker
+
 const staticCache = 'offline-cache-v1';
 
 self.addEventListener('fetch', function(event) {

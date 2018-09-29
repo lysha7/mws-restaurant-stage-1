@@ -18,7 +18,7 @@ ul, li {
 	color: #333;
 }
 a {
-	color: orange;
+	color: #FFA500;
 	text-decoration: none;
 }
 a:hover, a:focus {
@@ -90,7 +90,7 @@ header h1 {
 
 /* Add a color to all links inside the list */
 #breadcrumb li a {
-    color: orange;
+    color: #FFA500;
     text-decoration: none;
 }
 
@@ -163,7 +163,7 @@ header h1 {
   width: 100%;
 }
 #restaurants-list li h1 {
-  color: #f18200;
+  color: #E66300;
   font-family: Arial,sans-serif;
   font-size: 18pt;
   font-weight: 200;
@@ -176,9 +176,10 @@ header h1 {
   font-size: 11pt;
 }
 #restaurants-list li a {
-  background-color: orange;
+  background-color: #FFA500;
   border-bottom: 3px solid #eee;
   color: #fff;
+  text-shadow: 1px 1px 2px #4D3200;
   display: inline-block;
   font-size: 12pt;
   margin: 15px 0 0;
@@ -208,7 +209,7 @@ header h1 {
   padding: 20px 35px 30px;
 }
 #restaurant-name {
-  color: #f18200;
+  color: #E66300;
   font-family: Arial,sans-serif;
   font-size: 20pt;
   font-weight: 200;
@@ -240,7 +241,7 @@ header h1 {
   color: #666;
 }
 #reviews-container h2 {
-  color: #f58500;
+  color: #E66300;
   font-size: 18pt;
   font-weight: 300;
   margin-bottom: 15px;
@@ -297,9 +298,9 @@ header h1 {
   #restaurants-list li {
     width: 23%;
 }
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1200px) {
   #restaurants-list {
-    width: 1100px;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
   }
